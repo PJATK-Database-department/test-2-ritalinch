@@ -1,4 +1,7 @@
 using Newtonsoft.Json;
+using second_test.Contexts;
+using second_test.Services;
+using second_test.Services.impl;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers().AddNewtonsoftJson(opt =>
@@ -14,9 +17,8 @@ if (app.Environment.IsDevelopment())
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-// builder.Services.AddScoped<IDoctorsService, DoctorsService>();
-// builder.Services.AddScoped<IPrescriptionsService, PrescriptionsService>();
-// builder.Services.AddScoped<HospitalContext>();
+builder.Services.AddScoped<IActionsService, ActionsServiceImpl>();
+builder.Services.AddScoped<FirefighterDbContext>();
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
