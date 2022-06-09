@@ -20,8 +20,7 @@ public class ActionsController : Controller
     {
         try
         {
-            await _service.GetActionWithFirefightersByIdAsync(id);
-            return Ok();
+            return Ok(await _service.GetActionWithFirefightersByIdAsync(id));
         }
         catch (NotFoundException)
         {

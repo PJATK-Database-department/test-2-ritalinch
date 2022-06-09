@@ -8,17 +8,16 @@ builder.Services.AddControllers().AddNewtonsoftJson(opt =>
 {
     opt.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
 });
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<IActionsService, ActionsServiceImpl>();
+builder.Services.AddScoped<FirefighterDbContext>();
 var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<IActionsService, ActionsServiceImpl>();
-builder.Services.AddScoped<FirefighterDbContext>();
 
 app.UseHttpsRedirection();
 app.UseAuthorization();

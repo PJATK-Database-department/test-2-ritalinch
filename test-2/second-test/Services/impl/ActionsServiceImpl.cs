@@ -25,7 +25,7 @@ public class ActionsServiceImpl : IActionsService
         var action = _context.Actions.First(action => action.IdAction == id);
         return new ActionDto(
             action,
-            _context.Firefighters.Where(firefighter => firefighter.IdActions.Contains(action))
+            _context.Firefighters.Where(firefighter => firefighter.IdActions.Any(actionFire => actionFire.IdAction == action.IdAction))
         );
     }
 
