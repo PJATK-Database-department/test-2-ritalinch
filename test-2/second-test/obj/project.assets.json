@@ -2862,11 +2862,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marharyta\\Desktop\\учеба\\APBD\\test-2\\second-test\\second-test.csproj",
+      "projectUniqueName": "C:\\Users\\Marharyta\\Desktop\\учеба\\APBD\\test-2-ritalinch\\test-2\\second-test\\second-test.csproj",
       "projectName": "second-test",
-      "projectPath": "C:\\Users\\Marharyta\\Desktop\\учеба\\APBD\\test-2\\second-test\\second-test.csproj",
+      "projectPath": "C:\\Users\\Marharyta\\Desktop\\учеба\\APBD\\test-2-ritalinch\\test-2\\second-test\\second-test.csproj",
       "packagesPath": "C:\\Users\\Marharyta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marharyta\\Desktop\\учеба\\APBD\\test-2\\second-test\\obj\\",
+      "outputPath": "C:\\Users\\Marharyta\\Desktop\\учеба\\APBD\\test-2-ritalinch\\test-2\\second-test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Marharyta\\AppData\\Roaming\\NuGet\\NuGet.Config",

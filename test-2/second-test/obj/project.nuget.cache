@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M2Mn0Aurj2AYK/t9IyK7J6R8xVGy6WsST1cCCjtxLmEuE5B9rMjro+COXlRfSw1PRdHHFxFmvLUu4vEBSddBww==",
+  "dgSpecHash": "vvIQyjrflKBjG6bhPFbIVBVQJeJIZo0mrNsoca/SS9rB8m3V4AaWxMlpjjEbL6euWg9o3v+XNqzntUYtaMqL9w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marharyta\\Desktop\\учеба\\APBD\\test-2\\second-test\\second-test.csproj",
+  "projectFilePath": "C:\\Users\\Marharyta\\Desktop\\учеба\\APBD\\test-2-ritalinch\\test-2\\second-test\\second-test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marharyta\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Marharyta\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.5\\microsoft.aspnetcore.jsonpatch.6.0.5.nupkg.sha512",
